@@ -1,3 +1,4 @@
+package _06_for_loop_gauntlet;
 import javax.swing.JOptionPane;
 
 public class forLoopGauntlet {
@@ -34,30 +35,41 @@ public class forLoopGauntlet {
 //		}
 //			
 		
-			
-			
-			for(int x=1; x<10; x+=3) {
-				for(int i = x; i<x+3;i++) {
-					System.out.println(i);
+			for(int i=1; i<101; i++) {
+				if(i%10==0) {
+					System.out.println(i + "");
+				}
+				else {
+					System.out.print(i + " ");
 				}
 			}
 			
-			for(int i = 1; i<7; i++) {
-				for(int j = 0; j<i; j++) {
-					
-				
-				System.out.print("* ");
+			for(int x=1; x<10; x++) {
+				if (x%3==0) {
+					System.out.println(x);
+				}
+				else {
+					System.out.print(x);
+				}
+			
 			}
-				System.out.println("");
-			}
 			
-			
-			
-			for(int b=0; b>-1; b--) {
-				
-				
-				JOptionPane.showMessageDialog(null, b);
-			}	
+//			for(int i = 1; i<7; i++) {
+//				for(int j = 0; j<i; j++) {
+//					
+//				
+//				System.out.print("* ");
+//			}
+//				System.out.println("");
+//			}
+//			
+//			
+//			
+//			for(int b=0; b>-1; b--) {
+//				
+//				
+//				JOptionPane.showMessageDialog(null, b);
+//			}	
 				
 			
 			
