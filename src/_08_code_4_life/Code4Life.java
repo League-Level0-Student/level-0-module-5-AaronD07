@@ -23,8 +23,11 @@ String code = JOptionPane.showInputDialog("How many hours have you coded this we
 int b = Integer.parseInt(code);
 	// 2. If it is less than or equal to 2, tell them to stop watching YouTube and
 	// write code instead.
-if (b<=2) {
+if (b<=2 ) {
 	JOptionPane.showMessageDialog(null, "Stop watching youtube and code!");
+}
+else if (b>=3 && b<=5) {
+	JOptionPane.showMessageDialog(null, "You are a code ninja");
 }
 
 else if (b>5) {
